@@ -1,0 +1,78 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.navbar {
+    background-color: $dark-1;
+    border-bottom: .3em solid $neutral-1;
+}
+
+#projectsHeader {
+    color: gray;
+    font-weight: bold;
+  }
+    
+  #navbutton {
+    background-color: $dark-1;
+    color: $neutral-1;
+    font-weight: bold;
+  }
+  
+  #id {
+    font-weight: bold;
+  }
+  
+  #loginMenup {
+    padding-top: 10px;
+  }
+  
+  #ddmenu {
+    padding: 10px;
+    background-color: $light-4;
+    $dropdown-divider-bg: $dark-1;
+    $dropdown-link-active-color: $accent-1;
+    border-color: $dark-1;
+
+    li {
+        * {
+            color: $dark-1;
+            font-weight: 600;
+        }
+    }
+    
+    form {
+        label {
+            font-weight: 600;
+        }
+
+        input {
+            background-color: $light-1;
+        }
+
+        p {
+            * {
+                color: $neutral-3;
+            }
+        }
+    }
+  }
+  
+  .nav-dev {
+    color: $accent-1;
+    font-weight: 600;
+  }
+
+  .nav-dev2 {
+    color: $neutral-1;
+    font-weight: 600;
+  }
+  
+  #reuse {
+    background-color: $accent-1;
+    color: $dark-1;
+    font-weight: 600;
+
+    &:hover {
+        background-color: $neutral-1;
+        color: $light-1;
+    }
+  }

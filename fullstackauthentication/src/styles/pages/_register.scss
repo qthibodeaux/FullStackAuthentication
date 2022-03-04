@@ -1,0 +1,25 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.register-page {
+    background-color: $light-2;
+}
+
+.register-btn {
+    background-color: $accent-1;
+    color: $dark-1;
+    font-weight: 600;
+
+    &:hover {
+        background-color: $neutral-1;
+        color: $light-1;
+    }
+}
+
+.register-p {
+    font-weight: 400;
+
+    * {
+        color: $neutral-3;
+    }
+}

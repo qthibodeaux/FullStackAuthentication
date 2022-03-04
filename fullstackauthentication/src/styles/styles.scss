@@ -1,0 +1,12 @@
+@use './components/animations';
+@use './components/buttons';
+@use './components/mixins';
+@use './components/typography';
+
+@use './sections/intro';
+@use './sections/navbar';
+
+@use './pages/login';
+@use './pages/register';
+@use './pages/profile';
+@use './pages/home';

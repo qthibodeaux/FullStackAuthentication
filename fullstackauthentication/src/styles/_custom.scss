@@ -1,0 +1,23 @@
+$dark-1: #333333;
+$dark-2: #555555;
+$dark-3: #777777;
+$dark-4: #999999;
+
+$light-1: #F8F8F8;
+$light-2: #F2F2F2;
+$light-3: #EDEDED;
+$light-4: #DADADA;
+
+$accent-1: #6FFFB0;
+$accent-2: #FD6FFF;
+$accent-3: #81FCED;
+$accent-4: #FFCA58;
+$neutral-1: #00873D;
+$neutral-2: #3D138D;
+$neutral-3: #00739D;
+$neutral-4: #A2423D;
+
+$primary: $accent-1;
+$secondary: $accent-1;
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';

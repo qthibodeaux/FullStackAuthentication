@@ -1,0 +1,49 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.profile-div {
+    height: 100vh;
+}
+
+.profile-headline {
+    font-weight: 600;
+}
+
+.profile-title {
+    font-weight: 500;
+}
+
+.profile-update-btn {
+    background-color: $neutral-1;
+    color: $light-1;
+    font-weight: 600;
+
+    &:hover {
+        background-color: $accent-1;
+        color: $light-1;
+    }
+}
+
+.profile-section {
+    background-color: $neutral-1;
+    border-bottom: .25em solid $dark-1;
+    padding: .75em;
+}
+
+.profile-section-text {
+    background-color: yellow;
+    height: 200px;
+}
+
+.mkbig {
+    height: 200px;
+}
+
+.profile-info-label {
+    font-weight: 600;
+    color: $light-1;
+}
+
+.profile-submit-btn {
+    color: $neutral-3;
+}

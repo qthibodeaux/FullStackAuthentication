@@ -1,0 +1,29 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.loginPage {
+    background-color: $light-2;
+}
+
+.login-label {
+    font-weight: 500;
+}
+
+.login-btn {
+    background-color: $accent-1;
+    color: $dark-1;
+    font-weight: 600;
+
+    &:hover {
+        background-color: $neutral-1;
+        color: $light-1;
+    }
+}
+
+.login-p {
+    font-weight: 400;
+
+    * {
+        color: $neutral-3;
+    }
+}
