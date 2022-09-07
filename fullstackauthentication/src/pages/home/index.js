@@ -1,4 +1,5 @@
 import NavigationBar from "../nav"
+import { Link } from 'react-router-dom'
 
 function Home () {
 
@@ -7,8 +8,8 @@ function Home () {
             <NavigationBar />
             <div className="main" border>
                 <h1>Welcome</h1>
-                <p>Home page "/" (unprotected)</p>
-                <p>Profile page "/profile" (protected)</p>
+                <p>Homepage "/" (unprotected) <Link to='/' className="link-secondary">Link</Link></p>
+                <p>Profile page "/profile" (protected) <Link to='profile'>Link</Link></p>
             </div>
         </div>
     )
