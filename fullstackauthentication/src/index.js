@@ -4,15 +4,15 @@ import App from './App';
 import './styles/styles.scss';
 import "@popperjs/core"; 
 import { AuthProvider } from './pages/utils/useAuth';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import "bootstrap";
 
 ReactDOM.render(
   <React.StrictMode>
     <AuthProvider>
-      <BrowserRouter>
+      <HashRouter>
         <App />
-      </BrowserRouter>
+      </HashRouter>
     </AuthProvider>
   </React.StrictMode>,
   document.getElementById('root')
