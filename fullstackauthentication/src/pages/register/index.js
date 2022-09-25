@@ -38,7 +38,7 @@ function RegisterForm () {
           if (response.data.login) {
             login(response.data.token)
               .then(() => {
-                navigate(state?.path || '/dashboard')
+                navigate(state?.path || '/profile')
               })
           }
         })

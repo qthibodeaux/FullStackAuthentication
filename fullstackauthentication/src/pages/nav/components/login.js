@@ -1,6 +1,6 @@
 import { useLocation, useNavigate } from 'react-router-dom'
 import { useForm } from 'react-hook-form'
-import { Link, NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
 import useAuth from '../../utils/useAuth'
 
 function LoginButton () {
@@ -26,7 +26,7 @@ function LoginButton () {
             if (response.data.login) {
               login(response.data.token)
                 .then(() => {
-                  navigate(state?.path || '/dashboard')
+                  navigate(state?.path || '/profile')
                 })
             }
           })
